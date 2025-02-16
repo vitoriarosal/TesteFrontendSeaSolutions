@@ -97,6 +97,13 @@
       "cpf": "279.849.800-71",
       "email": "vitoriafrancarosal@gmail.com",
       "password": "123456789"
+    },
+    {
+      "id": "e561",
+      "name": "Suellen Matias",
+      "cpf": "545.746.200-56",
+      "email": "Suellen@gmail.com",
+      "password": "123456789"
     }
   ],
   "accounts": [
@@ -176,6 +183,13 @@
       "accountNumber": "6636",
       "balance": 836,
       "pixKey": "8X9RIQTDBG-6A6AL"
+    },
+    {
+      "id": "e27c",
+      "userId": "e561",
+      "accountNumber": "7781",
+      "balance": 878687,
+      "pixKey": "LS4KPIQ0-W7H1"
     }
   ],
   "transactions": [

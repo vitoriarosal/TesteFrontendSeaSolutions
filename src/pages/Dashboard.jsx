@@ -105,20 +105,32 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard-container">
-      {}
       <header className="dashboard-header">
         <div className="header-left">
           <div className="logo-container">
             <img src="/logoversao.png" alt="seaPay Logo" className="logo" />
           </div>
+
+        
+          <nav className="nav-menu">
+          <a href="#" className="active"><i className="pi pi-home"></i>Início</a>
+          <a href="#" className="disabled"><i className="pi pi-briefcase"></i> Transferência</a>
+           <a href="#" className="disabled"><i className="pi pi-replay"></i>Transações</a>
+          </nav>
+          <div className="header-divider"></div>
+
         </div>
+
         <div className="user-info">
           {user ? <span>Olá, {user.name}!</span> : <span>Carregando...</span>}
           <button className="logout-button" onClick={handleLogout}>Sair</button>
         </div>
+
+
       </header>
 
-      {}
+
+  
       <main className="dashboard-content">
         <div className="left-content">
           <section className="transactions-section">
