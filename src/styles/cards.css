@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 20px;
+}
+
+.account-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.account-card,
+.account-details {
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  min-height: 150px;
+  box-sizing: border-box;
+  font-size: 80%;
+  margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.account-details {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.account-card h3,
+.account-details h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 100%;
+}
+
+.icon {
+  font-size: 13px;
+  color: #333;
+}
+
+.saldo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.toggle-balance {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000000;
+  position: relative; 
+  margin-left: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -60px;
+}
+
+
+.chave-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  position: relative;
+  width: 100%;
+}
+
+
+.copy-key {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  position: absolute; 
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.copy-key:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+
+.saldo-valor {
+  color: #0071eb; 
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.saldo-container span strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.saldo-container span span {
+  font-weight: bold;
+  color: #007bff; 
+}

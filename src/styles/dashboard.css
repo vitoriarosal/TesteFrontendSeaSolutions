@@ -1,0 +1,167 @@
+.dashboard-header {
+  background: #3183D5;
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 240px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  padding-left: 180px; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  opacity: 0.8;
+}
+
+.nav-menu a.disabled {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.material-symbols-outlined {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.nav-menu a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.logout-button {
+  background: white;
+  color: #000000;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  height: 32px;
+}
+
+
+
+.logout-button:hover {
+  background: #f0f0f0;
+}
+
+.dashboard-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+  gap: 80px; 
+}
+
+.left-content {
+  flex: 2;
+}
+
+.transactions-section {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 450px;
+  margin-top: -100px;
+  margin-left: 0px; 
+  z-index: 15;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  max-width: 600px;
+  margin-left: 40px; 
+  position: relative;
+  margin-top: -100px;
+  z-index: 15;
+}
+
+.account-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+}
+
+.transactions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 80px;
+}

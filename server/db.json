@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "13e1",
+      "name": "Vitoria França Rosal",
+      "cpf": "000.000.000-00",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "0f21",
+      "name": "Vitoria França Rosal",
+      "cpf": "085.283.591-40",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "9d6d",
+      "name": "Vitoria sofia",
+      "cpf": "085.283.591-40",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "dd97",
+      "name": "vivi vivi",
+      "cpf": "085.283.591-40",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "aa2e",
+      "name": "Jujulia rosal",
+      "cpf": "670.657.790-17",
+      "email": "vitoriarosalf@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "3ca9",
+      "name": "Jose Palmas",
+      "cpf": "836.804.400-65",
+      "email": "Jose@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "4a3a",
+      "name": "Julia França",
+      "cpf": "517.971.820-13",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "ddf9",
+      "name": "Vitoria papi",
+      "cpf": "112.159.620-70",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "a4e5",
+      "name": "walcyr josue palmas ",
+      "cpf": "112.159.620-70",
+      "email": "vitoriarosalf@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "7813",
+      "name": "ff kk",
+      "cpf": "486.532.040-75",
+      "email": "vitoriarosalf@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "2711",
+      "name": "Vitória França Rosal",
+      "cpf": "217.184.410-88",
+      "email": "vitoriarosalf@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "fcf9",
+      "name": "matheus alves",
+      "cpf": "183.050.831-87",
+      "email": "teste@teste.com",
+      "password": "matheus123"
+    },
+    {
+      "id": "96cd",
+      "name": "Vitória França Rosal",
+      "cpf": "085.283.591-40",
+      "email": "julinhabreto3nn@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "aee0",
+      "name": "walcyr bum",
+      "cpf": "279.849.800-71",
+      "email": "vitoriafrancarosal@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "accounts": [
+    {
+      "userId": "13e1",
+      "accountNumber": "0001",
+      "balance": 2500,
+      "pixKey": "4S4J7-1J8RQ-7FT00",
+      "id": "099b"
+    },
+    {
+      "userId": "0f21",
+      "accountNumber": "0023",
+      "balance": 1500.5,
+      "pixKey": "7K9Q2-XF0G5-3LMN8",
+      "id": "80f2"
+    },
+    {
+      "id": "d80d",
+      "userId": "3ca9",
+      "accountNumber": "2856",
+      "balance": 0,
+      "pixKey": ""
+    },
+    {
+      "id": "b3ce",
+      "userId": "4a3a",
+      "accountNumber": "7275",
+      "balance": 0,
+      "pixKey": "SD7INU5U-TGP6"
+    },
+    {
+      "id": "1dfb",
+      "userId": "ddf9",
+      "accountNumber": "7523",
+      "balance": 0,
+      "pixKey": "JD3ILZFY-72I9"
+    },
+    {
+      "id": "cc4a",
+      "userId": "a4e5",
+      "accountNumber": "3545",
+      "balance": 0,
+      "pixKey": "PBQP9XI3-18LW"
+    },
+    {
+      "id": "dc75",
+      "userId": "7813",
+      "accountNumber": "7501",
+      "balance": 0,
+      "pixKey": "5CDCZLFR-C7DG"
+    },
+    {
+      "id": "16f5",
+      "userId": "2711",
+      "accountNumber": "3630",
+      "balance": 5,
+      "pixKey": "W0CRCR2H-QEG7"
+    },
+    {
+      "id": "27ad",
+      "userId": "fcf9",
+      "accountNumber": "9474",
+      "balance": 645829,
+      "pixKey": "9F8B2FRN-R5Q9"
+    },
+    {
+      "id": "5235",
+      "userId": "96cd",
+      "accountNumber": "4274",
+      "balance": 773625,
+      "pixKey": "540X4HJ4-WHP8"
+    },
+    {
+      "id": "b2f6",
+      "userId": "aee0",
+      "accountNumber": "6636",
+      "balance": 836,
+      "pixKey": "8X9RIQTDBG-6A6AL"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "b590",
+      "type": "Entrada",
+      "amount": 1000,
+      "status": "Concluído",
+      "name": "José da Silva",
+      "accountNumber": "0001",
+      "pixKey": "********ZkpMp",
+      "date": "2024-02-10T09:21:00"
+    },
+    {
+      "id": "b591",
+      "type": "Saída",
+      "amount": 250,
+      "status": "Pendente",
+      "name": "Maria Cláudia",
+      "accountNumber": "0012",
+      "pixKey": "********aBkA",
+      "date": "2024-02-11T21:02:00"
+    },
+    {
+      "id": "b592",
+      "type": "Entrada",
+      "amount": 450,
+      "status": "Concluído",
+      "name": "Cida Pereira",
+      "accountNumber": "0156",
+      "pixKey": "********BaIFT",
+      "date": "2024-02-12T06:35:00"
+    },
+    {
+      "id": "b593",
+      "type": "Saída",
+      "amount": 1000,
+      "status": "Concluído",
+      "name": "Rafaela Milena",
+      "accountNumber": "0017",
+      "pixKey": "********ZajUy",
+      "date": "2024-02-14T14:17:00"
+    },
+    {
+      "id": "b594",
+      "type": "Entrada",
+      "amount": 0,
+      "status": "Concluído",
+      "name": "Luana Fátima",
+      "accountNumber": "1065",
+      "pixKey": "********urlT5",
+      "date": "2024-02-14T18:47:00"
+    },
+    {
+      "id": "b595",
+      "type": "Saída",
+      "amount": 500,
+      "status": "Erro",
+      "name": "Carlos Alberto",
+      "accountNumber": "0023",
+      "pixKey": "********AbCd",
+      "date": "2024-02-15T12:30:00"
+    }
+  ]
+}

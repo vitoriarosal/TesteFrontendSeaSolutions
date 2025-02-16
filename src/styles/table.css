@@ -1,0 +1,91 @@
+.transaction-table table {
+    width: 100%;
+    max-width: 1300px; 
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif; 
+}
+
+.transaction-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.transaction-table td {
+    padding: 14px 12px;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+.transaction-table tbody tr {
+    height: 50px;
+    border-bottom: none !important;
+}
+
+.transaction-table th,
+.transaction-table td {
+    border: none !important;
+}
+
+.transaction-table .status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: capitalize;
+    height: auto;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.transaction-table .status.Concluído {
+    background: #3183D5;
+    color: white;
+}
+
+.transaction-table .status.Pendente {
+    background: #F4A100;
+    color: white;
+}
+
+.transaction-table .status.Erro {
+    background: #da3131;
+    color: white;
+    width: 100%;
+}
+
+.ver-todas {
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.ver-todas:hover {
+    opacity: 0.8;
+}
+
+.ver-todas .arrow-icon {
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ver-todas:hover .arrow-icon {
+    transform: translateX(3px);
+    opacity: 0.8;
+}
