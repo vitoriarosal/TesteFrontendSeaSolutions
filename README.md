@@ -1,8 +1,23 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PARA RODAR O JSON SERVER - npm run server (inicia a api)
 
-Currently, two official plugins are available:
+Para rodar o projeto - npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Instalação
+Baixar pacotes - npm i 
+
+🛠️ Construído com
+Formik - Criação do formulário
+
+Axios - Utilizado para fazer as requisições
+
+Json-server - Para criar api fake
+
+react-router-dom criação das rotas
+
+Primereact para icons e alguns estilos.
+
+
+
+
